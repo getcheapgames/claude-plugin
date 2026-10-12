@@ -9,6 +9,18 @@
     "url": "https://getcheapgames.com"
   },
   "homepage": "https://getcheapgames.com",
+  "privacyPolicyUrl": "https://getcheapgames.com/ie/privacy",
   "license": "MIT",
-  "keywords": ["games", "game keys", "deals", "price comparison", "steam", "free to play", "xbox", "playstation", "switch"]
+  "keywords": [
+    "games",
+    "game keys",
+    "deals",
+    "price comparison",
+    "steam",
+    "free to play",
+    "xbox",
+    "playstation",
+    "switch"
+  ],
+  "icon": ".claude-plugin/icon.png"
 }
