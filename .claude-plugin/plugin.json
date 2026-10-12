@@ -9,7 +9,11 @@
     "url": "https://getcheapgames.com"
   },
   "homepage": "https://getcheapgames.com",
+  "repository": "https://github.com/getcheapgames/claude-plugin",
+  "documentationUrl": "https://github.com/getcheapgames/claude-plugin#readme",
+  "supportUrl": "https://github.com/getcheapgames/claude-plugin/issues",
   "privacyPolicyUrl": "https://getcheapgames.com/ie/privacy",
+  "termsOfServiceUrl": "https://getcheapgames.com/ie/terms",
   "license": "MIT",
   "keywords": [
     "games",
