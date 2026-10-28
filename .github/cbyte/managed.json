@@ -1,12 +1,12 @@
 {
   "generator": "cbyte",
-  "version": 2,
+  "version": 3,
   "files": {
-    ".github/ISSUE_TEMPLATE/cbyte-bug.yml": "a9aa12bdea0102712964e5b1baa50d23487f6671eeda6da68c1bca1b005aaf42",
-    ".github/ISSUE_TEMPLATE/cbyte-task.yml": "c3f76559e1acb82435bfd8b653877ee01ad51b40fdf6017e7020e94548b7519b",
-    ".github/cbyte/README.md": "26c846f8e8e2cc6b0e377f5bb685540bd08d9a8f184c0c91ff97a7312d523402",
+    ".github/ISSUE_TEMPLATE/cbyte-bug.yml": "7f1f58e7387c7681ed9cdb8635709dc0ba065011fb12064a08002f8ccc331be3",
+    ".github/ISSUE_TEMPLATE/cbyte-task.yml": "c674b8824b903751d01918140822251f126ced92d3669cffbc14c043bc98817b",
+    ".github/cbyte/README.md": "39a6eed2a9fd9b7ada90160e73567d61abce09d279f4bd55bf546834dca6cc0a",
     ".github/workflows/cbyte-status.yml": "6504a35a7a28e8eab56780c82892be95ab565b9daa74c1273aa3700b6cf8b7b8",
-    ".github/cbyte/project.json": "b9f80ae7f4ea3259982aaa74232dc66349d4b7d2f38b5d14ad1d6c6ac4c49e64",
+    ".github/cbyte/project.json": "4943496e42408cf5e55abe6459d520f31a5a4cc9b48097b1c8d14a54ec3a291d",
     ".github/workflows/blocked-by-status.yml": "1594719697bfd34ee0c685fc92f0511b82875780ec5147d963edbc801195c481"
   }
 }

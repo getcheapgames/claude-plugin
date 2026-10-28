@@ -1,5 +1,6 @@
 name: CByte task
 description: Plan a deliverable with a clear outcome and checklist.
+type: Task
 labels: ["status:todo"]
 body:
   - type: textarea

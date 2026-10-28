@@ -1,5 +1,6 @@
 name: CByte bug report
 description: Report a reproducible problem.
+type: Bug
 labels: ["bug", "status:todo"]
 body:
   - type: textarea

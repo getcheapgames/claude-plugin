@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "projectName": "GCG",
   "githubProject": "https://github.com/orgs/getcheapgames/projects/1",
   "views": [
@@ -41,5 +41,75 @@
       "label": "status:done",
       "color": "22c55e"
     }
-  ]
+  ],
+  "issueTypes": [
+    {
+      "name": "Task",
+      "description": "A specific piece of work",
+      "color": "yellow",
+      "is_enabled": true
+    },
+    {
+      "name": "Bug",
+      "description": "An unexpected problem or behavior",
+      "color": "red",
+      "is_enabled": true
+    },
+    {
+      "name": "Feature",
+      "description": "A request, idea, or new functionality",
+      "color": "blue",
+      "is_enabled": true
+    },
+    {
+      "name": "Epic",
+      "description": "A big outcome made of several sub-issues",
+      "color": "purple",
+      "is_enabled": true
+    },
+    {
+      "name": "Business",
+      "description": "Company setup, banking, contracts and distributor accounts",
+      "color": "green",
+      "is_enabled": true
+    },
+    {
+      "name": "Legal",
+      "description": "Terms, trademarks, compliance, audits and legal review",
+      "color": "gray",
+      "is_enabled": true
+    },
+    {
+      "name": "Partnership",
+      "description": "Publishers, stores, price-comparison sites and affiliates",
+      "color": "orange",
+      "is_enabled": true
+    },
+    {
+      "name": "Marketing",
+      "description": "SEO, content, community and campaigns",
+      "color": "pink",
+      "is_enabled": true
+    },
+    {
+      "name": "Funding",
+      "description": "Grants, investors and IPO steps",
+      "color": "yellow",
+      "is_enabled": true
+    },
+    {
+      "name": "Event",
+      "description": "A conference or festival with fixed dates",
+      "color": "blue",
+      "is_enabled": true
+    },
+    {
+      "name": "Decision",
+      "description": "A choice to research and settle",
+      "color": "gray",
+      "is_enabled": true
+    }
+  ],
+  "issueTypeMode": "native",
+  "issueTypesSource": "https://github.com/orgs/midfeed/projects/11"
 }

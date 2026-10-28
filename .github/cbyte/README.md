@@ -3,6 +3,37 @@
 This repository participates in its CByte project's Timeline, Kanban, and Duty Board.
 The project link and shared configuration live in `.github/cbyte/project.json`.
 
+## Issue types
+
+All projects share the 11 types from Midfeed Digital Bootstrapping:
+
+| Type | Color | Purpose |
+| --- | --- | --- |
+| Task | Yellow | A specific piece of work |
+| Bug | Red | An unexpected problem or behavior |
+| Feature | Blue | A request, idea, or new functionality |
+| Epic | Purple | A big outcome made of several sub-issues |
+| Business | Green | Company setup, banking, contracts and distributor accounts |
+| Legal | Gray | Terms, trademarks, compliance, audits and legal review |
+| Partnership | Orange | Publishers, stores, price-comparison sites and affiliates |
+| Marketing | Pink | SEO, content, community and campaigns |
+| Funding | Yellow | Grants, investors and IPO steps |
+| Event | Blue | A conference or festival with fixed dates |
+| Decision | Gray | A choice to research and settle |
+
+CByte provisions these as native organization issue types, making them available
+to all repositories and projects in that organization. Existing issue assignments
+and unrelated custom types are preserved. Task and bug forms select their native
+type automatically. Personal-account repositories use equivalent `type:*` labels
+because GitHub native issue types require an organization. The generated project
+configuration records the definitions and whether native types or labels are used.
+
+Choose the appropriate type when creating or editing an issue. Applying defaults
+does not reclassify existing issues. In GitHub Projects, enable the built-in **Type**
+field to display native issue types in the view.
+
+## Status labels
+
 | Label | Column |
 | --- | --- |
 | `status:todo` | Todo |
