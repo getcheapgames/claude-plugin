@@ -1,0 +1,27 @@
+name: CByte bug report
+description: Report a reproducible problem.
+labels: ["bug", "status:todo"]
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Environment and screenshots
+      description: Exclude credentials and personal data.

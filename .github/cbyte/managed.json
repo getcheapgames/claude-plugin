@@ -1,0 +1,11 @@
+{
+  "generator": "cbyte",
+  "version": 1,
+  "files": {
+    ".github/ISSUE_TEMPLATE/cbyte-bug.yml": "a9aa12bdea0102712964e5b1baa50d23487f6671eeda6da68c1bca1b005aaf42",
+    ".github/ISSUE_TEMPLATE/cbyte-task.yml": "c3f76559e1acb82435bfd8b653877ee01ad51b40fdf6017e7020e94548b7519b",
+    ".github/cbyte/README.md": "892f56808eb2e412911ccf23802b8a8ced1c7d9b805d12f79152db5a8d3dd664",
+    ".github/workflows/cbyte-status.yml": "6504a35a7a28e8eab56780c82892be95ab565b9daa74c1273aa3700b6cf8b7b8",
+    ".github/cbyte/project.json": "16390e6e9db79a180f2916846879d7522cd73bb24b35bdf2f632c1c50f3613f1"
+  }
+}

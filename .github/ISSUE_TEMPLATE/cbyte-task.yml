@@ -1,0 +1,26 @@
+name: CByte task
+description: Plan a deliverable with a clear outcome and checklist.
+labels: ["status:todo"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What should change, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Include context, constraints, and relevant links.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ] Implementation complete
+        - [ ] Verification complete
+        - [ ] Documentation updated where needed
+    validations:
+      required: true

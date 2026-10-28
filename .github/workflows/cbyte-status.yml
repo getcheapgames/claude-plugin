@@ -1,0 +1,34 @@
+name: CByte issue status
+on:
+  issues:
+    types: [opened, reopened, closed, labeled, unlabeled]
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: cbyte-status-${{ github.event.issue.number }}
+  cancel-in-progress: false
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const statusLabels = ['status:todo', 'status:in-progress', 'status:blocked', 'status:done'];
+            const args = {...context.repo, issue_number: context.issue.number};
+            const {data: issue} = await github.rest.issues.get(args);
+            const names = issue.labels.map(label => label.name);
+            const action = context.payload.action;
+            const selected = context.payload.label?.name;
+            let status;
+            if (action === 'closed') status = 'status:done';
+            else if (action === 'labeled' && statusLabels.includes(selected)) status = selected;
+            else if (action === 'reopened') status = 'status:todo';
+            else if (issue.state === 'closed') status = 'status:done';
+            else status = ['status:blocked', 'status:in-progress', 'status:done', 'status:todo'].find(label => names.includes(label)) || 'status:todo';
+            const labels = [...names.filter(label => !statusLabels.includes(label)), status];
+            const state = status === 'status:done' ? 'closed' : 'open';
+            if (state !== issue.state || labels.length !== names.length || labels.some(label => !names.includes(label))) {
+              await github.rest.issues.update({...args, labels, state});
+            }
