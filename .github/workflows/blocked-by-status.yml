@@ -1,5 +1,5 @@
 name: Blocked-by status
-# Keeps the CByte status label in step with GitHub issue dependencies:
+# Keeps the issue status label in step with GitHub issue dependencies:
 #   open issue with an open "blocked by" issue -> status:blocked (Blocked column)
 #   all of its blockers closed               -> status:todo   (back to Todo)
 # Issues marked Blocked by hand, with no dependencies, are left alone.

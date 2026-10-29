@@ -1,4 +1,4 @@
-name: CByte issue status
+name: Issue status
 on:
   issues:
     types: [opened, reopened, closed, labeled, unlabeled]
@@ -6,7 +6,7 @@ permissions:
   contents: read
   issues: write
 concurrency:
-  group: cbyte-status-${{ github.event.issue.number }}
+  group: issue-status-${{ github.event.issue.number }}
   cancel-in-progress: false
 jobs:
   status:

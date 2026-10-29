@@ -1,4 +1,4 @@
-name: CByte bug report
+name: Bug report
 description: Report a reproducible problem.
 type: Bug
 labels: ["bug", "status:todo"]
